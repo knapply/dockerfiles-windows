@@ -1,6 +1,7 @@
 ARG version=ltsc2016
 FROM mcr.microsoft.com/windows/servercore:$version
 
+
 ENV chocolateyUseWindowsCompression false
 
 RUN powershell -Command \
